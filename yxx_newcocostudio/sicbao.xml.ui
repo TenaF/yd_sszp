@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\project_ny\sicbo\yxx-studio\yxx_newcocostudio</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\project_ny\sicbo\yxx-studio\yxx_newcocostudio\Resources</Resources>
+  <Name>sicbao</Name>
+  <JsonFileName>sicbao.json</JsonFileName>
+  <JsonFolder>D:\project_ny\sicbo\yxx-studio\yxx_newcocostudio\Json</JsonFolder>
+  <JsonList>
+    <string>helpLayer.json</string>
+    <string>outLayer.json</string>
+    <string>Setting.json</string>
+    <string>yxx_1.json</string>
+    <string>yxx_over.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1366</Width>
+    <Height>768</Height>
+  </CanvasSize>
+  <filePath>D:\project_ny\sicbo\yxx-studio\yxx_newcocostudio\sicbao.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>sicbao0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>yxx_over.json</CurrentUIJson>
+</UIProject>

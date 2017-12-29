@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hall">
+      <UniqueIdentifier>{ee6589d6-57d5-4257-8e73-ee227de51d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk">
+      <UniqueIdentifier>{ad0f7abc-77c8-45f5-a0d4-fdd13c525e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hall\data">
+      <UniqueIdentifier>{b8194c55-ccb5-4860-9b9e-8aa2c7c3cdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hall\message">
+      <UniqueIdentifier>{03da6e72-e9cc-4e23-b2ba-773bc416511c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hall\ui">
+      <UniqueIdentifier>{a1066fc2-f4b3-48ce-80a2-cde7306e1bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\controller">
+      <UniqueIdentifier>{3df8cfa0-3fca-4cdb-937c-0c5e69ca9469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\data">
+      <UniqueIdentifier>{3364e2d9-f570-4749-ab91-66f82386194e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\log">
+      <UniqueIdentifier>{1b74ca9c-8eb3-4f92-890c-867dae297374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\message">
+      <UniqueIdentifier>{8a081a67-b9c7-4956-859e-f640afc2832b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\network">
+      <UniqueIdentifier>{c188fe55-a5d0-451f-9412-8f99d325a20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\scene">
+      <UniqueIdentifier>{4bc88c41-084c-42e1-b9cc-35127fa16e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\ui">
+      <UniqueIdentifier>{b8e0de23-92a4-4e24-9960-77e447ec4895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\util">
+      <UniqueIdentifier>{3a667840-e1f3-4d61-aa07-45d6517deda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\util\asihttprequest">
+      <UniqueIdentifier>{63b2a2d6-6ad6-4cf6-a8ab-03ef1c2c89a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hall\manager">
+      <UniqueIdentifier>{35b1a5b7-3dd3-46d9-90ef-1925ba66007e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game">
+      <UniqueIdentifier>{8e8210a8-efae-401c-8eff-3fcf1d326657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sszp">
+      <UniqueIdentifier>{e21681fe-424f-45d4-9b22-381691712a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sszp\message">
+      <UniqueIdentifier>{d52cafca-7f6a-4402-b595-142d3c3d58bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sszp\data">
+      <UniqueIdentifier>{6c4edbd2-a957-4378-9eed-a2b99726324e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sszp\ui">
+      <UniqueIdentifier>{ff403693-315a-43ae-ab6b-2916508e1eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sszp\ui\widget">
+      <UniqueIdentifier>{37096aab-9113-421d-9e39-27c101efe91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sicbo">
+      <UniqueIdentifier>{5151a64e-981d-4e9a-9f04-85b6c95bb645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\fruit">
+      <UniqueIdentifier>{bd5079cd-44e5-4ac6-8758-291aa82eb893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\yxx">
+      <UniqueIdentifier>{8efd33aa-43fe-48f4-8495-8086a13820a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\fruit\data">
+      <UniqueIdentifier>{0d847186-f475-4cd5-966b-4c6cd8c36d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\yxx\data">
+      <UniqueIdentifier>{ee29b9ff-30e6-43ea-884c-8fb446f89bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sicbo\data">
+      <UniqueIdentifier>{9ff2181d-ab3d-4a37-839e-ca6466c33cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\fruit\message">
+      <UniqueIdentifier>{704eacce-0d1f-44fa-b671-6416a4dc14ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\yxx\message">
+      <UniqueIdentifier>{fcd3fb36-4409-4e86-99b1-cc23323dd41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sicbo\message">
+      <UniqueIdentifier>{cfe241d1-273c-4d95-838d-943ae5e3c1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\fruit\table">
+      <UniqueIdentifier>{00ff597e-6714-4857-9bb1-56eb619a0409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\yxx\table">
+      <UniqueIdentifier>{fd94da24-90ee-425f-8451-6562ad398ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\fruit\ui">
+      <UniqueIdentifier>{00335bc5-14c9-4129-bcbf-33c9d7746cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\yxx\ui">
+      <UniqueIdentifier>{5d9b7782-f60a-42a8-a387-2baeba97b3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sicbo\ui">
+      <UniqueIdentifier>{b50fd9f5-d184-41a7-91c9-1e55dfa92e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\fruit\ui\widget">
+      <UniqueIdentifier>{3e438b45-3c10-44b4-99e2-2f331661d409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\yxx\ui\widget">
+      <UniqueIdentifier>{15f42d18-f025-4303-a943-5d03aa7063a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sicbo\ui\widget">
+      <UniqueIdentifier>{cbc75abc-26ac-4904-a26f-7206a17e635b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\sicbo\table">
+      <UniqueIdentifier>{173f7dbe-7095-43af-9664-886b12507d79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\data\DataManager.cpp">
+      <Filter>Classes\hall\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\data\UserInfo.cpp">
+      <Filter>Classes\hall\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\message\HallMessageController.cpp">
+      <Filter>Classes\hall\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\BillLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\ConfirmLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\ConnectGameScene.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\ExitLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\GiveLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\LoadingFishScene.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\LoadingLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\LoadingScene.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\LoginLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\MainLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\ModifyNicknameLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\MyPageView.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\RegisterLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\RoomTypeLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\SaveTakeLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\SettingLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\UpdateHeadLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\ui\UpdatePasswordLayer.cpp">
+      <Filter>Classes\hall\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\GameClientManager.cpp">
+      <Filter>Classes\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\VisibleRect.cpp">
+      <Filter>Classes\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\controller\MainController.cpp">
+      <Filter>Classes\sdk\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\data\GlobalSchedule.cpp">
+      <Filter>Classes\sdk\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\message\Common.cpp">
+      <Filter>Classes\sdk\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\message\MsgBase.cpp">
+      <Filter>Classes\sdk\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\message\NetworkMsg.cpp">
+      <Filter>Classes\sdk\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\message\NetworkStateMsg.cpp">
+      <Filter>Classes\sdk\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\message\SendMsg.cpp">
+      <Filter>Classes\sdk\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\network\HttpManager.cpp">
+      <Filter>Classes\sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\network\NetworkManager.cpp">
+      <Filter>Classes\sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\network\Socket.cpp">
+      <Filter>Classes\sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\util\SerialStream.cpp">
+      <Filter>Classes\sdk\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\util\Util.cpp">
+      <Filter>Classes\sdk\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\ui\PromptLayer.cpp">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\ui\UpgradeLayer.cpp">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\ui\WebView.cpp">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\scene\BaseScene.cpp">
+      <Filter>Classes\sdk\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\scene\SceneBase.cpp">
+      <Filter>Classes\sdk\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\log\NYLog.cpp">
+      <Filter>Classes\sdk\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\message\GameMessageController.cpp">
+      <Filter>Classes\hall\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\util\MD5.cpp">
+      <Filter>Classes\sdk\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\message\Encrypt.cpp">
+      <Filter>Classes\sdk\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\data\ServerAddress.cpp">
+      <Filter>Classes\hall\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\network\CheckSocket.cpp">
+      <Filter>Classes\sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\message\Rijndael.cpp">
+      <Filter>Classes\sdk\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hall\manager\SoundManager_hall.cpp">
+      <Filter>Classes\hall\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\util\JsonUtils.cpp">
+      <Filter>Classes\sdk\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\message\PokerMessageController_sszp.cpp">
+      <Filter>Classes\game\sszp\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\ui\MainScene_sszp.cpp">
+      <Filter>Classes\game\sszp\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\data\PokerData_sszp.cpp">
+      <Filter>Classes\game\sszp\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\data\PokerPlayerInfo_sszp.cpp">
+      <Filter>Classes\game\sszp\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\data\SoundManager_sszp.cpp">
+      <Filter>Classes\game\sszp\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\message\SendGameMsg_sszp.cpp">
+      <Filter>Classes\game\sszp\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\message\GameClientDlg_sszp.cpp">
+      <Filter>Classes\game\sszp\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\ui\widget\helpLayer_sszp.cpp">
+      <Filter>Classes\game\sszp\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\ui\widget\OutGameLayer_sszp.cpp">
+      <Filter>Classes\game\sszp\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sszp\ui\widget\SettingLayer_sszp.cpp">
+      <Filter>Classes\game\sszp\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\data\PokerData_fruit.cpp">
+      <Filter>Classes\game\fruit\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\data\PokerPlayerInfo_fruit.cpp">
+      <Filter>Classes\game\fruit\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\data\SoundManager_fruit.cpp">
+      <Filter>Classes\game\fruit\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\message\GameClientDlg_fruit.cpp">
+      <Filter>Classes\game\fruit\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\message\PokerMessageController_fruit.cpp">
+      <Filter>Classes\game\fruit\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\message\SendGameMsg_fruit.cpp">
+      <Filter>Classes\game\fruit\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\table\InputPassword_fruit.cpp">
+      <Filter>Classes\game\fruit\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\table\TableScene_fruit.cpp">
+      <Filter>Classes\game\fruit\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\ui\MainScene_fruit.cpp">
+      <Filter>Classes\game\fruit\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\ui\widget\helpLayer_fruit.cpp">
+      <Filter>Classes\game\fruit\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\ui\widget\OutGameLayer_fruit.cpp">
+      <Filter>Classes\game\fruit\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\fruit\ui\widget\SettingLayer_fruit.cpp">
+      <Filter>Classes\game\fruit\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\data\PokerData_yxx.cpp">
+      <Filter>Classes\game\yxx\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\data\PokerPlayerInfo_yxx.cpp">
+      <Filter>Classes\game\yxx\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\data\SoundManager_yxx.cpp">
+      <Filter>Classes\game\yxx\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\message\GameClientDlg_yxx.cpp">
+      <Filter>Classes\game\yxx\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\message\PokerMessageController_yxx.cpp">
+      <Filter>Classes\game\yxx\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\message\SendGameMsg_yxx.cpp">
+      <Filter>Classes\game\yxx\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\table\InputPassword_yxx.cpp">
+      <Filter>Classes\game\yxx\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\table\TableScene_yxx.cpp">
+      <Filter>Classes\game\yxx\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\ui\MainScene_yxx.cpp">
+      <Filter>Classes\game\yxx\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\ui\widget\helpLayer_yxx.cpp">
+      <Filter>Classes\game\yxx\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\ui\widget\OutGameLayer_yxx.cpp">
+      <Filter>Classes\game\yxx\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\yxx\ui\widget\SettingLayer_yxx.cpp">
+      <Filter>Classes\game\yxx\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\data\PokerData_sicbo.cpp">
+      <Filter>Classes\game\sicbo\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\data\PokerPlayerInfo_sicbo.cpp">
+      <Filter>Classes\game\sicbo\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\data\SoundManager_sicbo.cpp">
+      <Filter>Classes\game\sicbo\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\message\GameClientDlg_sicbo.cpp">
+      <Filter>Classes\game\sicbo\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\message\PokerMessageController_sicbo.cpp">
+      <Filter>Classes\game\sicbo\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\message\SendGameMsg_sicbo.cpp">
+      <Filter>Classes\game\sicbo\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\ui\MainScene_sicbo.cpp">
+      <Filter>Classes\game\sicbo\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\ui\widget\helpLayer_sicbo.cpp">
+      <Filter>Classes\game\sicbo\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\ui\widget\OutGameLayer_sicbo.cpp">
+      <Filter>Classes\game\sicbo\ui\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\table\InputPassword_sicbo.cpp">
+      <Filter>Classes\game\sicbo\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\sicbo\table\TableScene_sicbo.cpp">
+      <Filter>Classes\game\sicbo\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\ui\ProressCirCle.cpp">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\data\DataManager.h">
+      <Filter>Classes\hall\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\data\UserInfo.h">
+      <Filter>Classes\hall\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\message\HallMessageController.h">
+      <Filter>Classes\hall\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\BillLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\ConfirmLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\ConnectGameScene.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\ExitLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\GiveLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\LoadingFishScene.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\LoadingLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\LoadingScene.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\LoginLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\MainLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\ModifyNicknameLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\MyPageView.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\RegisterLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\RoomTypeLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\SaveTakeLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\SettingLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\UpdateHeadLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\ui\UpdatePasswordLayer.h">
+      <Filter>Classes\hall\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\GameClientManager.h">
+      <Filter>Classes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\sdk.h">
+      <Filter>Classes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\VisibleRect.h">
+      <Filter>Classes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\controller\MainController.h">
+      <Filter>Classes\sdk\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\data\GlobalSchedule.h">
+      <Filter>Classes\sdk\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\CMD_Commom.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\CMD_GameServer.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\CMD_LogonServer.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\Common.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\Define.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\MsgBase.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\NetworkMsg.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\NetworkStateMsg.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\Packet.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\PacketAide.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\RightDefine.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\SendMsg.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\ServerRule.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\Struct.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\network\HttpManager.h">
+      <Filter>Classes\sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\network\NetworkManager.h">
+      <Filter>Classes\sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\network\Socket.h">
+      <Filter>Classes\sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIAuthenticationDialog.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASICacheDelegate.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIDataCompressor.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIDataDecompressor.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIFormDataRequest.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequest.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequestConfig.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequestDelegate.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIInputStream.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIProgressDelegate.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\DeviceAttr.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\DeviceInfo.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\OpenUDIDIOS.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\Reachability.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\SFHFKeychainUtils.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\SvUDIDTools.h">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\QFileUtil.h">
+      <Filter>Classes\sdk\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\SerialStream.h">
+      <Filter>Classes\sdk\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\Util.h">
+      <Filter>Classes\sdk\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\Util_ios.h">
+      <Filter>Classes\sdk\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\ui\PromptLayer.h">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\ui\UpgradeLayer.h">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\ui\WebView.h">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\ui\webviewimp.h">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\scene\BaseScene.h">
+      <Filter>Classes\sdk\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\scene\SceneBase.h">
+      <Filter>Classes\sdk\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\scene\SceneDef.h">
+      <Filter>Classes\sdk\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\MTNotification.h">
+      <Filter>Classes\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\log\NYLog.h">
+      <Filter>Classes\sdk\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\message\GameMessageController.h">
+      <Filter>Classes\hall\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\MD5.h">
+      <Filter>Classes\sdk\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\Encrypt.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\data\ServerAddress.h">
+      <Filter>Classes\hall\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\network\CheckSocket.h">
+      <Filter>Classes\sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\message\Rijndael.h">
+      <Filter>Classes\sdk\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hall\manager\SoundManager_hall.h">
+      <Filter>Classes\hall\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\JsonUtils.h">
+      <Filter>Classes\sdk\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\message\PokerMessageController_sszp.h">
+      <Filter>Classes\game\sszp\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\ui\MainScene_sszp.h">
+      <Filter>Classes\game\sszp\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\message\CMD_Game_sszp.h">
+      <Filter>Classes\game\sszp\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\data\PokerData_sszp.h">
+      <Filter>Classes\game\sszp\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\data\PokerPlayerInfo_sszp.h">
+      <Filter>Classes\game\sszp\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\data\SoundManager_sszp.h">
+      <Filter>Classes\game\sszp\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\message\SendGameMsg_sszp.h">
+      <Filter>Classes\game\sszp\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\message\GameClientDlg_sszp.h">
+      <Filter>Classes\game\sszp\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\ui\widget\helpLayer_sszp.h">
+      <Filter>Classes\game\sszp\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\ui\widget\OutGameLayer_sszp.h">
+      <Filter>Classes\game\sszp\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sszp\ui\widget\SettingLayer_sszp.h">
+      <Filter>Classes\game\sszp\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\data\PokerData_fruit.h">
+      <Filter>Classes\game\fruit\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\data\PokerPlayerInfo_fruit.h">
+      <Filter>Classes\game\fruit\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\data\SoundManager_fruit.h">
+      <Filter>Classes\game\fruit\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\message\CMD_Game_fruit.h">
+      <Filter>Classes\game\fruit\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\message\GameClientDlg_fruit.h">
+      <Filter>Classes\game\fruit\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\message\PokerMessageController_fruit.h">
+      <Filter>Classes\game\fruit\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\message\SendGameMsg_fruit.h">
+      <Filter>Classes\game\fruit\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\table\InputPassword_fruit.h">
+      <Filter>Classes\game\fruit\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\table\TableScene_fruit.h">
+      <Filter>Classes\game\fruit\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\ui\MainScene_fruit.h">
+      <Filter>Classes\game\fruit\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\ui\widget\helpLayer_fruit.h">
+      <Filter>Classes\game\fruit\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\ui\widget\OutGameLayer_fruit.h">
+      <Filter>Classes\game\fruit\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\fruit\ui\widget\SettingLayer_fruit.h">
+      <Filter>Classes\game\fruit\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\data\PokerData_yxx.h">
+      <Filter>Classes\game\yxx\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\data\PokerPlayerInfo_yxx.h">
+      <Filter>Classes\game\yxx\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\data\SoundManager_yxx.h">
+      <Filter>Classes\game\yxx\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\message\CMD_Game_yxx.h">
+      <Filter>Classes\game\yxx\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\message\GameClientDlg_yxx.h">
+      <Filter>Classes\game\yxx\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\message\PokerMessageController_yxx.h">
+      <Filter>Classes\game\yxx\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\message\SendGameMsg_yxx.h">
+      <Filter>Classes\game\yxx\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\table\InputPassword_yxx.h">
+      <Filter>Classes\game\yxx\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\table\TableScene_yxx.h">
+      <Filter>Classes\game\yxx\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\ui\MainScene_yxx.h">
+      <Filter>Classes\game\yxx\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\ui\widget\helpLayer_yxx.h">
+      <Filter>Classes\game\yxx\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\ui\widget\OutGameLayer_yxx.h">
+      <Filter>Classes\game\yxx\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\yxx\ui\widget\SettingLayer_yxx.h">
+      <Filter>Classes\game\yxx\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\data\PokerData_sicbo.h">
+      <Filter>Classes\game\sicbo\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\data\PokerPlayerInfo_sicbo.h">
+      <Filter>Classes\game\sicbo\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\data\SoundManager_sicbo.h">
+      <Filter>Classes\game\sicbo\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\message\CMD_Game_sicbo.h">
+      <Filter>Classes\game\sicbo\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\message\GameClientDlg_sicbo.h">
+      <Filter>Classes\game\sicbo\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\message\PokerMessageController_sicbo.h">
+      <Filter>Classes\game\sicbo\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\message\SendGameMsg_sicbo.h">
+      <Filter>Classes\game\sicbo\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\ui\MainScene_sicbo.h">
+      <Filter>Classes\game\sicbo\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\ui\widget\helpLayer_sicbo.h">
+      <Filter>Classes\game\sicbo\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\ui\widget\OutGameLayer_sicbo.h">
+      <Filter>Classes\game\sicbo\ui\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\table\InputPassword_sicbo.h">
+      <Filter>Classes\game\sicbo\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\sicbo\table\TableScene_sicbo.h">
+      <Filter>Classes\game\sicbo\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\ui\ProressCirCle.h">
+      <Filter>Classes\sdk\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIAuthenticationDialog.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIDataCompressor.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIDataDecompressor.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIFormDataRequest.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequest.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIInputStream.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\DeviceAttr.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\DeviceInfo.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\OpenUDIDIOS.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\Reachability.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\SFHFKeychainUtils.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\asihttprequest\SvUDIDTools.m">
+      <Filter>Classes\sdk\util\asihttprequest</Filter>
+    </None>
+    <None Include="..\Classes\sdk\util\Util_ios.m">
+      <Filter>Classes\sdk\util</Filter>
+    </None>
+    <None Include="..\Classes\sdk\ui\WebView.mm">
+      <Filter>Classes\sdk\ui</Filter>
+    </None>
+    <None Include="..\Classes\sdk\ui\webviewimp.mm">
+      <Filter>Classes\sdk\ui</Filter>
+    </None>
+  </ItemGroup>
+</Project>

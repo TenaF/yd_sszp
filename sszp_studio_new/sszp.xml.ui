@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\project_yd\yd_sszp\sszp_studio_new</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\project_yd\yd_sszp\sszp_studio_new\Resources</Resources>
+  <Name>sszp</Name>
+  <JsonFileName>sszp.json</JsonFileName>
+  <JsonFolder>D:\project_yd\yd_sszp\sszp_studio_new\Json</JsonFolder>
+  <JsonList>
+    <string>helpLayer.json</string>
+    <string>outLayer.json</string>
+    <string>Setting.json</string>
+    <string>sszp_1.json</string>
+    <string>sszp_over.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>1366</Width>
+    <Height>768</Height>
+  </CanvasSize>
+  <filePath>D:\project_yd\yd_sszp\sszp_studio_new\sszp.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>sszp_over.json</CurrentUIJson>
+</UIProject>

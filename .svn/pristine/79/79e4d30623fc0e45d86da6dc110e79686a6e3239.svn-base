@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plish version="1.0">
+	<dict>
+		 	  <key>title</key>
+				<string>大厅</string>
+	</dict>	
+	<dict>
+		 	  <key>SpreaderAccount</key>
+				<string>0</string>
+	</dict>	
+	<dict>
+		 	  <key>client_version</key>
+				<string>1</string>
+	</dict>
+	<dict>
+		 	  <key>version_url</key>
+				<string>http://localhost:8686/chc_hall.txt</string>
+	</dict>	
+	<dict>
+		 	  <key>download_url</key>
+				<string>http://localhost:8686/chc_hall.zip</string>
+	</dict>	
+	<dict>
+		 	  <key>download_unzip_file_name</key>
+				<string>chc_hall.apk</string>
+	</dict>	
+
+	<dict>
+		 	  <key>rank_url</key>
+				<string>http://webtest.qianlei.com:8181/index.php/home/mobile_rank</string>
+	</dict>	
+	<dict>
+		 	  <key>yeepay_url</key>
+				<string>http://webtest.qianlei.com:8181/index.php/yj_pay_mobile/createOrder</string>
+	</dict>	
+		<dict>
+		 	  <key>activity_url</key>
+				<string>http://webtest.qianlei.com:8181/index.php/home/activity</string>
+	</dict>	
+</plish>

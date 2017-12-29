@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plish version="1.0">
+    <dict>
+			  <!-- 域名速度测试URL -->
+			  <key>DomainNameTestUrl</key>
+			  <string>MobileWeb/GetDomain.aspx</string>
+	</dict>
+
+    <dict>
+		      <!-- 保险柜_赠送和账单开关 -->
+		      <key>GaveIsTrue</key>
+		      <string>MobileWeb/GetGift.aspx</string>
+    </dict>
+  
+    <dict>
+			  <!-- 分享内容URL -->
+			  <key>shareInfoUrl</key>
+			  <string>MobileWeb/GameJson/shareInfo.json</string>
+	</dict>
+  
+  <dict>
+			  <!-- 分享图片URL -->
+			  <key>ShareImgUrl</key>
+			  <string>MobileWeb/GameJson/shareInfo.png</string>
+  </dict>
+  
+    <dict>
+			  <!-- 分享回调URL -->
+		      <key>shareCallbackUrl</key>
+			  <string>Mobile/api/Account/ShareWeChatValidate</string>
+	</dict>
+    
+    <dict>
+	          <!-- 商品详情 -->
+	          <key>PaymentJsonUrl</key>
+	          <string>MobileWeb/GameJson/PaymentJson.json</string>
+    </dict>
+
+ 	<dict>
+      		  <!-- 商城开关URL -->
+    		  <key>StoreSwitch</key>
+     		  <string>MobileWeb/GameJson/StoreSwitch.aspx</string>
+    </dict>
+
+    <dict>
+      		  <!-- 功能总开关ASPX-URL -->
+    		  <key>totalSwitchUrl</key>
+     		  <string>MobileWeb/Switch/TotalSwitchUrl.aspx</string>
+    </dict>
+  
+	<dict>
+			  <!-- 请求支付平台 -->
+			  <key>payTypeUrl</key>
+			  <string>Pay/Switch/SwitchPay.aspx</string>
+	</dict>
+
+    <dict>
+	          <!-- 订单请求创建页面 -->
+	          <key>CreateOrderUrl</key>
+	          <string>Pay/View/UnifiedOrder.aspx</string>
+    </dict>
+    <dict>
+	          <!-- 客户端支付完成通知页面 -->
+	          <key>PaymentFinishUrl</key>
+	          <string>Pay/View/CallBackPay.aspx</string>
+    </dict>
+    
+    <dict>
+	          <!-- 版本管理 ios-->
+		 	  <key>version_url</key>
+			  <string>MobileWeb/GameVersion/plaza_version.json</string>
+	</dict>	
+    <dict>
+	          <!-- 版本管理 android-->
+		 	  <key>android_verUrl</key>
+			  <string>MobileWeb/GameVersion/Android-PlazaVersion.txt</string>
+	</dict>
+
+	<dict>
+			  <!-- 跳转大厅升级链接 -->
+		 	  <key>ios_upgradeUrl</key>
+              <string>https://itunes.apple.com/cn/app/bu-yu-qi-bingol/id1176377957?l=zh&ls=1&mt=8</string>
+	</dict>
+	<dict>
+			  <!-- 跳转大厅升级链接 -->
+		 	  <key>android_upgradeUrl</key>
+              <string>http://www.youxi555.com/mobile/indexmobile.html</string>
+	</dict>
+	<dict>
+			  <!-- 服务器当前时间 -->
+		 	  <key>currentTime</key>
+			  <string>MobileWeb/V200/GameAspx/GetServertime.aspx</string>
+	</dict>	
+
+	<dict>
+		      <!-- 服务器列表 -->
+		 	  <key>serverList</key>
+			  <string>MobileWeb/V200/GameAspx/GetConfig.aspx</string>
+	</dict>	
+	
+	<dict>
+		      <!-- 请求商品类型列表 -->
+		 	  <key>getproducttype</key>
+			  <string>Mall/api/mall/getproducttype</string>
+	</dict>	
+	
+	<dict>
+		      <!-- 请求单个商品信息 -->
+		 	  <key>getsingleproduct</key>
+			  <string>Mall/api/mall/getsingleproduct</string>
+	</dict>	
+	
+	
+	<dict>
+		      <!-- 请求一页商品信息 -->
+		 	  <key>getProductList</key>
+			  <string>Mall/api/mall/GetProductList</string>
+	</dict>	
+	
+	
+	<dict>
+		      <!-- 请求兑换商品 -->
+		 	  <key>exchangegoods</key>
+			  <string>Mall/api/mall/exchangegoods</string>
+	</dict>	
+	
+	
+	<dict>
+		      <!-- 订单详情 -->
+		 	  <key>getorderlist</key>
+			  <string>Mall/api/mall/getorderlist</string>
+	</dict>	
+
+	<dict>
+		      <!-- 兑换分享内容及开关 -->
+		 	  <key>exc_ShareInfo</key>
+			  <string>MobileWeb/GameJson/exchangeShare.json</string>
+	</dict>	
+
+	<!---------------------------------------- 已下是html网页地址 --------------------------------------------------------------------->
+	<dict>
+			  <!-- 分享网页地址 -->
+			  <key>shareToWXUrl</key>
+			  <string>MobileWeb/GameWeb/sharePic.html</string>
+	</dict>	
+	<dict>
+	          <!-- 官网地址 -->
+		 	  <key>guanwangUrl</key>
+			  <string>MobileWeb/GameWeb/officialWeb.html</string>
+	</dict>	
+	<dict>
+			  <!-- 客服地址 -->
+		 	  <key>kefuUrl</key>
+			  <string>MobileWeb/GameWeb/gamekefu.html</string>
+	</dict>	
+	<dict>
+			  <!-- 公告地址 -->
+		 	  <key>noticeUrl</key>
+			  <string>MobileWeb/GameWeb/notice.html</string>
+	</dict>	
+	<dict>
+			  <!-- 排行榜请求地址 -->
+		 	  <key>TopInfoUrl</key>
+			  <string>MobileWeb/Ranking/api/rank/GetGameSort</string>
+	</dict>
+	<dict>
+			  <!-- 排行榜领取地址 -->
+		 	  <key>TopReceiveUrl</key>
+			  <string>MobileWeb/Ranking/api/rank/ExchangeScoreRank</string>
+	</dict>
+
+	<dict>
+			  <!-- 微信绑定 -->
+		 	  <key>weixinBindUrl</key>
+			  <string>MobileWeb/GameWeb/wechatBind.html</string>
+	</dict>	
+	<dict>
+			  <!-- 更多游戏 -->
+		 	  <key>moreGameUrl</key>
+			  <string>MobileWeb/GameWeb/moregame.html</string>
+	</dict>	
+
+	
+</plish>

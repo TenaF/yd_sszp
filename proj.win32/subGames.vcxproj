@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>subGames</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EngineRoot)external\win32-specific\icon\include;..Classes\game\ui\widget;..Classes\game;..Classes\game\ui;$(EngineRoot)cocos\ui;$(EngineRoot)external\unzip;$(EngineRoot)external\win32-specific\zlib\include;$(EngineRoot)external\curl\include\win32;$(EngineRoot)cocos\network;$(EngineRoot)cocos\editor-support;$(EngineRoot)cocos;$(EngineRoot);$(EngineRoot)cocos\audio\include;$(EngineRoot)external\external\jpeg\prebuilt\win32;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;..\openssl-0.9.8zg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl_imp.lib;websockets.lib;libeay32.lib;ssleay32.lib;libjpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);..\openssl-0.9.8zg\out32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl_imp.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\data\PokerData_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\data\PokerPlayerInfo_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\data\SoundManager_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\message\GameClientDlg_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\message\PokerMessageController_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\message\SendGameMsg_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\table\InputPassword_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\table\TableScene_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\ui\MainScene_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\ui\widget\helpLayer_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\ui\widget\OutGameLayer_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\fruit\ui\widget\SettingLayer_fruit.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\data\PokerData_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\data\PokerPlayerInfo_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\data\SoundManager_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\message\GameClientDlg_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\message\PokerMessageController_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\message\SendGameMsg_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\table\InputPassword_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\table\TableScene_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\ui\MainScene_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\ui\widget\helpLayer_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sicbo\ui\widget\OutGameLayer_sicbo.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\data\PokerData_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\data\PokerPlayerInfo_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\data\SoundManager_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\message\GameClientDlg_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\message\PokerMessageController_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\message\SendGameMsg_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\ui\MainScene_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\ui\widget\helpLayer_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\ui\widget\OutGameLayer_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\sszp\ui\widget\SettingLayer_sszp.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\data\PokerData_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\data\PokerPlayerInfo_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\data\SoundManager_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\message\GameClientDlg_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\message\PokerMessageController_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\message\SendGameMsg_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\table\InputPassword_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\table\TableScene_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\ui\MainScene_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\ui\widget\helpLayer_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\ui\widget\OutGameLayer_yxx.cpp" />
+    <ClCompile Include="..\Classes\game\yxx\ui\widget\SettingLayer_yxx.cpp" />
+    <ClCompile Include="..\Classes\hall\data\DataManager.cpp" />
+    <ClCompile Include="..\Classes\hall\data\ServerAddress.cpp" />
+    <ClCompile Include="..\Classes\hall\data\UserInfo.cpp" />
+    <ClCompile Include="..\Classes\hall\manager\SoundManager_hall.cpp" />
+    <ClCompile Include="..\Classes\hall\message\GameMessageController.cpp" />
+    <ClCompile Include="..\Classes\hall\message\HallMessageController.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\BillLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\ConfirmLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\ConnectGameScene.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\ExitLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\GiveLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\LoadingFishScene.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\LoadingLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\LoadingScene.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\LoginLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\MainLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\ModifyNicknameLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\MyPageView.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\RegisterLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\RoomTypeLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\SaveTakeLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\SettingLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\UpdateHeadLayer.cpp" />
+    <ClCompile Include="..\Classes\hall\ui\UpdatePasswordLayer.cpp" />
+    <ClCompile Include="..\Classes\sdk\controller\MainController.cpp" />
+    <ClCompile Include="..\Classes\sdk\data\GlobalSchedule.cpp" />
+    <ClCompile Include="..\Classes\sdk\GameClientManager.cpp" />
+    <ClCompile Include="..\Classes\sdk\log\NYLog.cpp" />
+    <ClCompile Include="..\Classes\sdk\message\Common.cpp" />
+    <ClCompile Include="..\Classes\sdk\message\Encrypt.cpp" />
+    <ClCompile Include="..\Classes\sdk\message\MsgBase.cpp" />
+    <ClCompile Include="..\Classes\sdk\message\NetworkMsg.cpp" />
+    <ClCompile Include="..\Classes\sdk\message\NetworkStateMsg.cpp" />
+    <ClCompile Include="..\Classes\sdk\message\Rijndael.cpp" />
+    <ClCompile Include="..\Classes\sdk\message\SendMsg.cpp" />
+    <ClCompile Include="..\Classes\sdk\network\CheckSocket.cpp" />
+    <ClCompile Include="..\Classes\sdk\network\HttpManager.cpp" />
+    <ClCompile Include="..\Classes\sdk\network\NetworkManager.cpp" />
+    <ClCompile Include="..\Classes\sdk\network\Socket.cpp" />
+    <ClCompile Include="..\Classes\sdk\scene\BaseScene.cpp" />
+    <ClCompile Include="..\Classes\sdk\scene\SceneBase.cpp" />
+    <ClCompile Include="..\Classes\sdk\ui\PromptLayer.cpp" />
+    <ClCompile Include="..\Classes\sdk\ui\ProressCirCle.cpp" />
+    <ClCompile Include="..\Classes\sdk\ui\UpgradeLayer.cpp" />
+    <ClCompile Include="..\Classes\sdk\ui\WebView.cpp" />
+    <ClCompile Include="..\Classes\sdk\util\JsonUtils.cpp" />
+    <ClCompile Include="..\Classes\sdk\util\MD5.cpp" />
+    <ClCompile Include="..\Classes\sdk\util\SerialStream.cpp" />
+    <ClCompile Include="..\Classes\sdk\util\Util.cpp" />
+    <ClCompile Include="..\Classes\sdk\VisibleRect.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\game\fruit\data\PokerData_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\data\PokerPlayerInfo_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\data\SoundManager_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\message\CMD_Game_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\message\GameClientDlg_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\message\PokerMessageController_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\message\SendGameMsg_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\table\InputPassword_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\table\TableScene_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\ui\MainScene_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\ui\widget\helpLayer_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\ui\widget\OutGameLayer_fruit.h" />
+    <ClInclude Include="..\Classes\game\fruit\ui\widget\SettingLayer_fruit.h" />
+    <ClInclude Include="..\Classes\game\sicbo\data\PokerData_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\data\PokerPlayerInfo_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\data\SoundManager_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\message\CMD_Game_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\message\GameClientDlg_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\message\PokerMessageController_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\message\SendGameMsg_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\table\InputPassword_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\table\TableScene_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\ui\MainScene_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\ui\widget\helpLayer_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sicbo\ui\widget\OutGameLayer_sicbo.h" />
+    <ClInclude Include="..\Classes\game\sszp\data\PokerData_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\data\PokerPlayerInfo_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\data\SoundManager_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\message\CMD_Game_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\message\GameClientDlg_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\message\PokerMessageController_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\message\SendGameMsg_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\ui\MainScene_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\ui\widget\helpLayer_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\ui\widget\OutGameLayer_sszp.h" />
+    <ClInclude Include="..\Classes\game\sszp\ui\widget\SettingLayer_sszp.h" />
+    <ClInclude Include="..\Classes\game\yxx\data\PokerData_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\data\PokerPlayerInfo_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\data\SoundManager_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\message\CMD_Game_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\message\GameClientDlg_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\message\PokerMessageController_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\message\SendGameMsg_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\table\InputPassword_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\table\TableScene_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\ui\MainScene_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\ui\widget\helpLayer_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\ui\widget\OutGameLayer_yxx.h" />
+    <ClInclude Include="..\Classes\game\yxx\ui\widget\SettingLayer_yxx.h" />
+    <ClInclude Include="..\Classes\hall\data\DataManager.h" />
+    <ClInclude Include="..\Classes\hall\data\ServerAddress.h" />
+    <ClInclude Include="..\Classes\hall\data\UserInfo.h" />
+    <ClInclude Include="..\Classes\hall\manager\SoundManager_hall.h" />
+    <ClInclude Include="..\Classes\hall\message\GameMessageController.h" />
+    <ClInclude Include="..\Classes\hall\message\HallMessageController.h" />
+    <ClInclude Include="..\Classes\hall\ui\BillLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\ConfirmLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\ConnectGameScene.h" />
+    <ClInclude Include="..\Classes\hall\ui\ExitLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\GiveLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\LoadingFishScene.h" />
+    <ClInclude Include="..\Classes\hall\ui\LoadingLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\LoadingScene.h" />
+    <ClInclude Include="..\Classes\hall\ui\LoginLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\MainLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\ModifyNicknameLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\MyPageView.h" />
+    <ClInclude Include="..\Classes\hall\ui\RegisterLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\RoomTypeLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\SaveTakeLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\SettingLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\UpdateHeadLayer.h" />
+    <ClInclude Include="..\Classes\hall\ui\UpdatePasswordLayer.h" />
+    <ClInclude Include="..\Classes\sdk\controller\MainController.h" />
+    <ClInclude Include="..\Classes\sdk\data\GlobalSchedule.h" />
+    <ClInclude Include="..\Classes\sdk\GameClientManager.h" />
+    <ClInclude Include="..\Classes\sdk\log\NYLog.h" />
+    <ClInclude Include="..\Classes\sdk\message\CMD_Commom.h" />
+    <ClInclude Include="..\Classes\sdk\message\CMD_GameServer.h" />
+    <ClInclude Include="..\Classes\sdk\message\CMD_LogonServer.h" />
+    <ClInclude Include="..\Classes\sdk\message\Common.h" />
+    <ClInclude Include="..\Classes\sdk\message\Define.h" />
+    <ClInclude Include="..\Classes\sdk\message\Encrypt.h" />
+    <ClInclude Include="..\Classes\sdk\message\MsgBase.h" />
+    <ClInclude Include="..\Classes\sdk\message\NetworkMsg.h" />
+    <ClInclude Include="..\Classes\sdk\message\NetworkStateMsg.h" />
+    <ClInclude Include="..\Classes\sdk\message\Packet.h" />
+    <ClInclude Include="..\Classes\sdk\message\PacketAide.h" />
+    <ClInclude Include="..\Classes\sdk\message\RightDefine.h" />
+    <ClInclude Include="..\Classes\sdk\message\Rijndael.h" />
+    <ClInclude Include="..\Classes\sdk\message\SendMsg.h" />
+    <ClInclude Include="..\Classes\sdk\message\ServerRule.h" />
+    <ClInclude Include="..\Classes\sdk\message\Struct.h" />
+    <ClInclude Include="..\Classes\sdk\MTNotification.h" />
+    <ClInclude Include="..\Classes\sdk\network\CheckSocket.h" />
+    <ClInclude Include="..\Classes\sdk\network\HttpManager.h" />
+    <ClInclude Include="..\Classes\sdk\network\NetworkManager.h" />
+    <ClInclude Include="..\Classes\sdk\network\Socket.h" />
+    <ClInclude Include="..\Classes\sdk\scene\BaseScene.h" />
+    <ClInclude Include="..\Classes\sdk\scene\SceneBase.h" />
+    <ClInclude Include="..\Classes\sdk\scene\SceneDef.h" />
+    <ClInclude Include="..\Classes\sdk\sdk.h" />
+    <ClInclude Include="..\Classes\sdk\ui\PromptLayer.h" />
+    <ClInclude Include="..\Classes\sdk\ui\ProressCirCle.h" />
+    <ClInclude Include="..\Classes\sdk\ui\UpgradeLayer.h" />
+    <ClInclude Include="..\Classes\sdk\ui\WebView.h" />
+    <ClInclude Include="..\Classes\sdk\ui\webviewimp.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIAuthenticationDialog.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASICacheDelegate.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIDataCompressor.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIDataDecompressor.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIFormDataRequest.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequest.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequestConfig.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequestDelegate.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIInputStream.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\ASIProgressDelegate.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\DeviceAttr.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\DeviceInfo.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\OpenUDIDIOS.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\Reachability.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\SFHFKeychainUtils.h" />
+    <ClInclude Include="..\Classes\sdk\util\asihttprequest\SvUDIDTools.h" />
+    <ClInclude Include="..\Classes\sdk\util\JsonUtils.h" />
+    <ClInclude Include="..\Classes\sdk\util\MD5.h" />
+    <ClInclude Include="..\Classes\sdk\util\QFileUtil.h" />
+    <ClInclude Include="..\Classes\sdk\util\SerialStream.h" />
+    <ClInclude Include="..\Classes\sdk\util\Util.h" />
+    <ClInclude Include="..\Classes\sdk\util\Util_ios.h" />
+    <ClInclude Include="..\Classes\sdk\VisibleRect.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2d\cocos\2d\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\editor-support\cocostudio\proj.win32\libCocosStudio.vcxproj">
+      <Project>{b57cf53f-2e49-4031-9822-047cc0e6bde2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj">
+      <Project>{df2638c0-8128-4847-867c-6eafe3dee7b5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\ui\proj.win32\libGUI.vcxproj">
+      <Project>{7e06e92c-537a-442b-9e4a-4761c84f8a1a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\sdk\ui\WebView.mm" />
+    <None Include="..\Classes\sdk\ui\webviewimp.mm" />
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIAuthenticationDialog.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIDataCompressor.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIDataDecompressor.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIFormDataRequest.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIHTTPRequest.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\ASIInputStream.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\DeviceAttr.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\DeviceInfo.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\OpenUDIDIOS.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\Reachability.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\SFHFKeychainUtils.m" />
+    <None Include="..\Classes\sdk\util\asihttprequest\SvUDIDTools.m" />
+    <None Include="..\Classes\sdk\util\Util_ios.m" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

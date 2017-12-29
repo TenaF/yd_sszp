@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\project_yd\yd_sszp\fruit_vertical_yd</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\project_yd\yd_sszp\fruit_vertical_yd\Resources</Resources>
+  <Name>fruit_vertical</Name>
+  <JsonFileName>fruit_vertical.json</JsonFileName>
+  <JsonFolder>D:\project_yd\yd_sszp\fruit_vertical_yd\Json</JsonFolder>
+  <JsonList>
+    <string>fruit_vertical_1.json</string>
+    <string>helpLayer.json</string>
+    <string>outLayer.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>768</Width>
+    <Height>1366</Height>
+  </CanvasSize>
+  <filePath>D:\project_yd\yd_sszp\fruit_vertical_yd\fruit_vertical.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>outLayer.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,33 @@
+运行configure：
+	perl Configure VC-WIN32 -DOPENSSL_USE_IPV6=0
+
+创建Makefile文件：
+	ms\do_ms
+
+编译动态库：
+	nmake -f ms\ntdll.mak
+	编译成功可在文件夹out32dll里面查看输出的文件，包括应用程序的exe文件、lib文件、dll文件。
+编译静态库：
+	nmake -f ms\nt.mak
+	编译成功可在文件夹out32里面查看输出的文件，包括应用程序的exe文件、lib文件。
+
+测试动态库：
+	nmake -f ms\ntdll.mak test
+测试静态库：
+	nmake -f ms\nt.mak test
+
+安装动态库：
+	nmake -f ms\ntdll.mak install
+安装静态库：
+	nmake -f ms\nt.mak install
+
+清除上次动态库的编译，以便重新编译：
+	nmake -f ms\ntdll.mak clean
+清除上次静态库的编译，以便重新编译：
+	make -f ms\nt.mak clean
+
+VS环境设置：
+	1、设置包含文件目录为：x:\openssl-0.9.8zg\include\
+	2、关于库目录的设置：
+		（1）、如果动态连接，需要两个DLL文件，设置库目录为：x:\openssl-0.9.8zg\out32dll
+		（2）、如果静态连接，不需要两个DLL文件，设置库目录为：x:\openssl-0.9.8zg\out32

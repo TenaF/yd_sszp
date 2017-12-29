@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<plist version="1.0">
+	<dict>
+		 	  <key>30</key>
+		 	  <array>
+				  <string>1</string>
+					<string>新丁</string>
+				</array>
+				
+		 	  <key>120</key>
+		 	   <array>
+				  <string>2</string>
+					<string>丘八</string>
+				</array>
+				
+				<key>3000</key>
+		 	   <array>
+				  <string>3</string>
+					<string>百长</string>
+				</array>
+				
+				<key>600</key>
+		 	   <array>
+				  <string>4</string>
+					<string>把总</string>
+				</array>
+				
+				<key>1050</key>
+		 	   <array>
+				  <string>5</string>
+					<string>吏目</string>
+				</array>
+				
+				<key>1680</key>
+		 	   <array>
+				  <string>6</string>
+					<string>千总</string>
+				</array>
+				
+				<key>2520</key>
+		 	   <array>
+				  <string>7</string>
+					<string>知事</string>
+				</array>
+				
+				<key>3600</key>
+		 	   <array>
+				  <string>8</string>
+					<string>游牧</string>
+				</array>
+				
+				<key>4950</key>
+		 	   <array>
+				  <string>9</string>
+					<string>城门领</string>
+				</array>
+				
+				<key>6600</key>
+		 	   <array>
+				  <string>10</string>
+					<string>县丞</string>
+				</array>
+				
+				<key>8580</key>
+		 	   <array>
+				  <string>11</string>
+					<string>县丞</string>
+				</array>
+				
+				<key>10920</key>
+		 	   <array>
+				  <string>12</string>
+					<string>卫千总</string>
+				</array>
+				
+				<key>13650</key>
+		 	   <array>
+				  <string>13</string>
+					<string>卫千总</string>
+				</array>
+				
+				<key>16800</key>
+		 	   <array>
+				  <string>14</string>
+					<string>州判</string>
+				</array>
+				
+				<key>20400</key>
+		 	   <array>
+				  <string>15</string>
+					<string>州判</string>
+				</array>
+				
+				<key>24480</key>
+		 	   <array>
+				  <string>16</string>
+					<string>州判</string>
+				</array>
+				
+				<key>29070</key>
+		 	   <array>
+				  <string>17</string>
+					<string>通判</string>
+				</array>
+				
+				<key>34200</key>
+		 	   <array>
+				  <string>18</string>
+					<string>通判</string>
+				</array>
+				
+				<key>39900</key>
+		 	   <array>
+				  <string>19</string>
+					<string>通判</string>
+				</array>
+				
+				<key>46200</key>
+		 	   <array>
+				  <string>20</string>
+					<string>守备</string>
+				</array>
+				
+				<key>53130</key>
+		 	   <array>
+				  <string>21</string>
+					<string>守备</string>
+				</array>
+				
+				<key>60720</key>
+		 	   <array>
+				  <string>22</string>
+					<string>守备</string>
+				</array>
+				
+				<key>69000</key>
+		 	   <array>
+				  <string>23</string>
+					<string>知州</string>
+				</array>
+				
+				<key>78000</key>
+		 	   <array>
+				  <string>24</string>
+					<string>知州</string>
+				</array>
+				
+				<key>87750</key>
+		 	   <array>
+				  <string>25</string>
+					<string>知州</string>
+				</array>
+				
+				<key>98280</key>
+		 	   <array>
+				  <string>26</string>
+					<string>佐领</string>
+				</array>
+				
+				<key>109620</key>
+		 	   <array>
+				  <string>27</string>
+					<string>佐领</string>
+				</array>
+				
+				<key>121800</key>
+		 	   <array>
+				  <string>28</string>
+					<string>佐领</string>
+				</array>
+				
+				<key>134850</key>
+		 	   <array>
+				  <string>29</string>
+					<string>知府</string>
+				</array>
+				
+				<key>148800</key>
+		 	   <array>
+				  <string>30</string>
+					<string>知府</string>
+				</array>
+				
+				
+				<key>163680</key>
+		 	   <array>
+				  <string>31</string>
+					<string>知府</string>
+				</array>
+				
+				<key>179520</key>
+		 	   <array>
+				  <string>32</string>
+					<string>游击</string>
+				</array>
+				
+				<key>196350</key>
+		 	   <array>
+				  <string>33</string>
+					<string>游击</string>
+				</array>
+				
+				<key>214200</key>
+		 	   <array>
+				  <string>34</string>
+					<string>游击</string>
+				</array>
+				
+				<key>233100</key>
+		 	   <array>
+				  <string>35</string>
+					<string>府丞</string>
+				</array>
+				
+				<key>253080</key>
+		 	   <array>
+				  <string>36</string>
+					<string>府丞</string>
+				</array>
+				
+				<key>274170</key>
+		 	   <array>
+				  <string>37</string>
+					<string>府丞</string>
+				</array>
+				
+				<key>296400</key>
+		 	   <array>
+				  <string>38</string>
+					<string>参将</string>
+				</array>
+				
+				<key>319800</key>
+		 	   <array>
+				  <string>39</string>
+					<string>参将</string>
+				</array>
+				
+				<key>34440</key>
+		 	   <array>
+				  <string>40</string>
+					<string>参将</string>
+				</array>
+				
+				
+				<key>370230</key>
+		 	   <array>
+				  <string>41</string>
+					<string>府伊</string>
+				</array>
+				
+				<key>397320</key>
+		 	   <array>
+				  <string>42</string>
+					<string>府伊</string>
+				</array>
+				
+				<key>425700</key>
+		 	   <array>
+				  <string>43</string>
+					<string>府伊</string>
+				</array>
+				
+				<key>455400</key>
+		 	   <array>
+				  <string>44</string>
+					<string>一等侍卫</string>
+				</array>
+				
+				<key>486450</key>
+		 	   <array>
+				  <string>45</string>
+					<string>一等侍卫</string>
+				</array>
+				
+				<key>518880</key>
+		 	   <array>
+				  <string>46</string>
+					<string>一等侍卫</string>
+				</array>
+				
+				<key>552720</key>
+		 	   <array>
+				  <string>47</string>
+					<string>巡抚</string>
+				</array>
+				
+				<key>588000</key>
+		 	   <array>
+				  <string>48</string>
+					<string>巡抚</string>
+				</array>
+				
+				<key>624750</key>
+		 	   <array>
+				  <string>49</string>
+					<string>巡抚</string>
+				</array>
+				
+				<key>663000</key>
+		 	   <array>
+				  <string>50</string>
+					<string>巡抚</string>
+				</array>
+				
+				
+				<key>702780</key>
+		 	   <array>
+				  <string>51</string>
+					<string>副将</string>
+				</array>
+				
+				<key>744120</key>
+		 	   <array>
+				  <string>52</string>
+					<string>副将</string>
+				</array>
+				
+				<key>787050</key>
+		 	   <array>
+				  <string>53</string>
+					<string>副将</string>
+				</array>
+				
+				<key>831600</key>
+		 	   <array>
+				  <string>54</string>
+					<string>副将</string>
+				</array>
+				
+				<key>877800</key>
+		 	   <array>
+				  <string>55</string>
+					<string>总督</string>
+				</array>
+				
+				<key>925680</key>
+		 	   <array>
+				  <string>56</string>
+					<string>总督</string>
+				</array>
+				
+				<key>975270</key>
+		 	   <array>
+				  <string>57</string>
+					<string>总督</string>
+				</array>
+				
+				<key>1026600</key>
+		 	   <array>
+				  <string>58</string>
+					<string>总督</string>
+				</array>
+				
+				<key>1079700</key>
+		 	   <array>
+				  <string>59</string>
+					<string>总兵</string>
+				</array>
+				
+				<key>1134600</key>
+		 	   <array>
+				  <string>60</string>
+					<string>总兵</string>
+				</array>
+				
+				
+				<key>1191330</key>
+		 	   <array>
+				  <string>61</string>
+					<string>总兵</string>
+				</array>
+				
+				<key>1249920</key>
+		 	   <array>
+				  <string>62</string>
+					<string>总兵</string>
+				</array>
+				
+				<key>1310400</key>
+		 	   <array>
+				  <string>63</string>
+					<string>都察院御史</string>
+				</array>
+				
+				<key>1372800</key>
+		 	   <array>
+				  <string>64</string>
+					<string>都察院御史</string>
+				</array>
+				
+				<key>1437150</key>
+		 	   <array>
+				  <string>65</string>
+					<string>都察院御史</string>
+				</array>
+				
+				<key>1503480</key>
+		 	   <array>
+				  <string>66</string>
+					<string>都察院御史</string>
+				</array>
+				
+				<key>1571820</key>
+		 	   <array>
+				  <string>67</string>
+					<string>都统</string>
+				</array>
+				
+				<key>1642200</key>
+		 	   <array>
+				  <string>68</string>
+					<string>都统</string>
+				</array>
+				
+				<key>1714650</key>
+		 	   <array>
+				  <string>69</string>
+					<string>都统</string>
+				</array>
+				
+				<key>1789200</key>
+		 	   <array>
+				  <string>70</string>
+					<string>都统</string>
+				</array>
+				
+				
+				<key>1865880</key>
+		 	   <array>
+				  <string>71</string>
+					<string>尚书</string>
+				</array>
+				
+				<key>1944720</key>
+		 	   <array>
+				  <string>72</string>
+					<string>尚书</string>
+				</array>
+				
+				<key>2025750</key>
+		 	   <array>
+				  <string>73</string>
+					<string>尚书</string>
+				</array>
+				
+				<key>2109000</key>
+		 	   <array>
+				  <string>74</string>
+					<string>尚书</string>
+				</array>
+				
+				<key>2194500</key>
+		 	   <array>
+				  <string>75</string>
+					<string>九门提督</string>
+				</array>
+				
+				<key>2282280</key>
+		 	   <array>
+				  <string>76</string>
+					<string>九门提督</string>
+				</array>
+				
+				<key>2372370</key>
+		 	   <array>
+				  <string>77</string>
+					<string>九门提督</string>
+				</array>
+				
+				<key>2464800</key>
+		 	   <array>
+				  <string>78</string>
+					<string>九门提督</string>
+				</array>
+				
+				<key>2559600</key>
+		 	   <array>
+				  <string>79</string>
+					<string>将军</string>
+				</array>
+				
+				<key>2656800</key>
+		 	   <array>
+				  <string>80</string>
+					<string>将军</string>
+				</array>
+				
+				
+				<key>2756430</key>
+		 	   <array>
+				  <string>81</string>
+					<string>将军</string>
+				</array>
+				
+				<key>2858520</key>
+		 	   <array>
+				  <string>82</string>
+					<string>将军</string>
+				</array>
+				
+				<key>2963100</key>
+		 	   <array>
+				  <string>83</string>
+					<string>殿阁大学士</string>
+				</array>
+				
+				<key>3070200</key>
+		 	   <array>
+				  <string>84</string>
+					<string>殿阁大学士</string>
+				</array>
+				
+				<key>3179850</key>
+		 	   <array>
+				  <string>85</string>
+					<string>殿阁大学士</string>
+				</array>
+				
+				<key>3292080</key>
+		 	   <array>
+				  <string>86</string>
+					<string>殿阁大学士</string>
+				</array>
+				
+				<key>3406920</key>
+		 	   <array>
+				  <string>87</string>
+					<string>郡王</string>
+				</array>
+				
+				<key>3524400</key>
+		 	   <array>
+				  <string>88</string>
+					<string>郡王</string>
+				</array>
+				
+				<key>3644550</key>
+		 	   <array>
+				  <string>89</string>
+					<string>郡王</string>
+				</array>
+				
+				<key>3767400</key>
+		 	   <array>
+				  <string>90</string>
+					<string>郡王</string>
+				</array>
+				
+				
+				<key>3892980</key>
+		 	   <array>
+				  <string>91</string>
+					<string>亲王</string>
+				</array>
+				
+				<key>4021320</key>
+		 	   <array>
+				  <string>92</string>
+					<string>亲王</string>
+				</array>
+				
+				<key>4152450</key>
+		 	   <array>
+				  <string>93</string>
+					<string>亲王</string>
+				</array>
+				
+				<key>4286400</key>
+		 	   <array>
+				  <string>94</string>
+					<string>亲王</string>
+				</array>
+				
+				<key>4423200</key>
+		 	   <array>
+				  <string>95</string>
+					<string>出将入相</string>
+				</array>
+				
+				<key>4562880</key>
+		 	   <array>
+				  <string>96</string>
+					<string>出将入相</string>
+				</array>
+				
+				<key>4705470</key>
+		 	   <array>
+				  <string>97</string>
+					<string>出将入相</string>
+				</array>
+				
+				<key>4851000</key>
+		 	   <array>
+				  <string>98</string>
+					<string>出将入相</string>
+				</array>
+				
+				<key>4999500</key>
+		 	   <array>
+				  <string>99</string>
+					<string>一代帝王</string>
+				</array>
+			
+	</dict>	
+</plist>
